@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D0D6439C1F73619A0043DF43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6439B1F73619A0043DF43 /* AppDelegate.swift */; };
-		D0D6439E1F73619A0043DF43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6439D1F73619A0043DF43 /* ViewController.swift */; };
+		D0D6439E1F73619A0043DF43 /* GasPumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6439D1F73619A0043DF43 /* GasPumpViewController.swift */; };
 		D0D643A11F73619A0043DF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D6439F1F73619A0043DF43 /* Main.storyboard */; };
 		D0D643A31F73619A0043DF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D643A21F73619A0043DF43 /* Assets.xcassets */; };
 		D0D643A61F73619A0043DF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D643A41F73619A0043DF43 /* LaunchScreen.storyboard */; };
+		D0D643AE1F736AF40043DF43 /* GasPumpButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D643AD1F736AF40043DF43 /* GasPumpButtonsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0D643981F73619A0043DF43 /* Gas Pump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Pump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D6439B1F73619A0043DF43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0D6439D1F73619A0043DF43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0D6439D1F73619A0043DF43 /* GasPumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPumpViewController.swift; sourceTree = "<group>"; };
 		D0D643A01F73619A0043DF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0D643A21F73619A0043DF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0D643A51F73619A0043DF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D643A71F73619A0043DF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D643AD1F736AF40043DF43 /* GasPumpButtonsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPumpButtonsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				D0D6439B1F73619A0043DF43 /* AppDelegate.swift */,
-				D0D6439D1F73619A0043DF43 /* ViewController.swift */,
+				D0D6439D1F73619A0043DF43 /* GasPumpViewController.swift */,
+				D0D643AD1F736AF40043DF43 /* GasPumpButtonsController.swift */,
 				D0D6439F1F73619A0043DF43 /* Main.storyboard */,
 				D0D643A21F73619A0043DF43 /* Assets.xcassets */,
 				D0D643A41F73619A0043DF43 /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D6439E1F73619A0043DF43 /* ViewController.swift in Sources */,
+				D0D643AE1F736AF40043DF43 /* GasPumpButtonsController.swift in Sources */,
+				D0D6439E1F73619A0043DF43 /* GasPumpViewController.swift in Sources */,
 				D0D6439C1F73619A0043DF43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
